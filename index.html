@@ -5,50 +5,298 @@
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
+
   <title>Reyhane Shafiee | Science Meets Life</title>
-  <style>
-    body {
-      background: #FAF7F2;
-      color: #382F2B;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 60px 24px;
-      text-align: center;
-    }
 
-    h1 {
-      font-size: 42px;
-      margin-bottom: 12px;
-    }
+  <meta name="description"
+        content="The personal website of Reyhane Shafiee, exploring neuroscience, research, photography, travel, and life.">
 
-    .subtitle {
-      color: #788267;
-      font-size: 18px;
-    }
-
-    .card {
-      background: #EDE3D8;
-      padding: 24px;
-      border-radius: 16px;
-      max-width: 550px;
-      margin: 40px auto;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Reyhane Shafiee</h1>
-  <p class="subtitle">
-    Neuroscience, Curiosity & Life
-  </p>
 
-  <div class="card">
-    <h2>Welcome to my little corner of the internet.</h2>
-    <p>
-      Exploring the brain, discovering new places,
-      capturing moments, and collecting ideas.
-    </p>
-  </div>
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="container">
+      <a href="#home" class="logo">
+        Reyhane Shafiee.
+      </a>
 
-  <p>More coming soon...</p>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#life">Beyond the Lab</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <div class="container" id="home">
+      <div class="hero">
+
+        <div>
+          <span class="eyebrow">
+            Science Meets Life
+          </span>
+
+          <h1>
+            A curious mind, exploring
+            the world inside and out.
+          </h1>
+
+          <p>
+            Hi, I'm Reyhane! I have an MSc in
+            Biotechnology for Neuroscience.
+            I'm interested in understanding
+            the brain, exploring scientific
+            questions, and discovering the
+            world beyond the laboratory.
+          </p>
+
+          <p>
+            Welcome to my little corner
+            of the internet.
+          </p>
+        </div>
+
+        <div class="portrait">
+          <img src="assets/profile.jpg"
+               alt="Portrait of Reyhane Shafiee"
+               onerror="this.style.display='none'; this.parentElement.textContent='Your photo goes here';">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+
+        <span class="eyebrow">Get to know me</span>
+        <h2 class="section-title">About Me</h2>
+
+        <p class="section-intro">
+          I completed my MSc in Biotechnology
+          for Neuroscience at the University
+          of Turin, Italy.
+        </p>
+
+        <p>
+          My academic journey has taken me
+          from experimental neuroscience and
+          animal models of neurodegeneration
+          to human electrophysiology and
+          multisensory integration.
+        </p>
+
+        <p>
+          Beyond science, I enjoy photography,
+          travelling, cooking, watching films,
+          reading, learning languages, and
+          exploring philosophical questions.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+      <div class="container">
+
+        <span class="eyebrow">The Science</span>
+        <h2 class="section-title">
+          Research Experience
+        </h2>
+
+        <p class="section-intro">
+          Exploring the brain through
+          experimental and electrophysiological
+          approaches.
+        </p>
+
+        <div class="cards">
+
+          <article class="card">
+            <h3>Multisensory Integration</h3>
+
+            <p>
+              For my master's thesis, I
+              investigated how self-directed
+              hand movements influence the
+              integration of auditory and
+              tactile information.
+            </p>
+
+            <p>
+              Methods: Human EEG, event-related
+              potentials, behavioural analysis,
+              and MATLAB.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Alzheimer's Disease</h3>
+
+            <p>
+              During my internship at the
+              Neuroscience Institute Cavalieri
+              Ottolenghi, I investigated the
+              effects of sleep fragmentation
+              in mouse models of Alzheimer's
+              disease.
+            </p>
+
+            <p>
+              Methods: Animal behavioural
+              testing, PCR, gel electrophoresis,
+              and brain tissue sectioning.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+
+        <span class="eyebrow">Learning by Doing</span>
+
+        <h2 class="section-title">
+          Computational Projects
+        </h2>
+
+        <p class="section-intro">
+          Developing computational skills
+          to explore neuroscience data
+          through programming, visualization,
+          and statistical analysis.
+        </p>
+
+        <div class="cards">
+
+          <article class="card">
+            <h3>Python for Neuroscience</h3>
+            <p>
+              Practising data manipulation,
+              visualization, and statistical
+              analysis using Python.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Neuroimaging & Brain Data</h3>
+            <p>
+              Exploring computational
+              approaches to neuroimaging
+              and brain-related datasets.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONAL INTERESTS -->
+    <section id="life">
+      <div class="container">
+
+        <span class="eyebrow">The Life</span>
+
+        <h2 class="section-title">
+          Beyond the Lab
+        </h2>
+
+        <p class="section-intro">
+          Science is only one part of my
+          curiosity. Here are some of the
+          things that make life interesting.
+        </p>
+
+        <div class="cards">
+
+          <article class="card">
+            <h3>Through My Lens</h3>
+            <p>
+              Photography and travel.
+              Capturing places, details,
+              and moments worth remembering.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>In the Kitchen</h3>
+            <p>
+              Cooking, experimenting with
+              recipes, and discovering
+              different food cultures.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Stories & Screens</h3>
+            <p>
+              Books and films that make
+              me feel, think, and see
+              things differently.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Ideas & Words</h3>
+            <p>
+              Philosophy, learning languages,
+              and exploring different
+              perspectives on the world.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+
+        <span class="eyebrow">Let's Connect</span>
+
+        <h2 class="section-title">
+          Get in Touch
+        </h2>
+
+        <p>
+          Interested in neuroscience,
+          collaboration, or simply
+          exchanging ideas?
+        </p>
+
+        <p>
+          Find me on
+          <a href="https://github.com/livinginred"
+             target="_blank"
+             rel="noopener noreferrer">
+            GitHub
+          </a>.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Reyhane Shafiee.
+      Made with curiosity.
+    </div>
+  </footer>
+
 </body>
 </html>
